@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.section{
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 20px;
+}
+header{
+    min-height: 900px;
+    background-image: url(../img/dan-otis-OYFHT4X5isg-unsplash_1.webp);
+    background-size: cover;
+    color: white;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.495);
+    backdrop-filter: blur(10px);
+    padding: 10px 20px;
+    border-radius: 15px ;
+    border: 1px solid black;
+}
+.menu>li:first-child{
+    margin-right: auto;
+}
+.menu img{
+    width: 40px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.bts{
+    background-color: aquamarine;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+}
+h1{
+    font-size: 60px;
+    margin: 200px;}
+    .sec>p{
+        margin-block: 20px;
+        max-width: 500px;
+        line-height: 1.5;
+
+    }
+    .src>form{
+       background-color: aqua;
+       border-radius: 15px;
+       display: flex;
+       gap: 10px;
+       padding: 20px;
+       width: fit-content;
+    }
+    .sec input{
+        border: none;
+        padding: 10px;
+    }
+    .info{
+        max-width 1440px;
+        margin: 100px auto;
+        padding: 20px;
+    }
+
+
